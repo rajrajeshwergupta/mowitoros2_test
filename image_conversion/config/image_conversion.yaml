@@ -1,0 +1,4 @@
+image_conversion_node:
+  ros__parameters:
+    input_topic: "/image"
+    output_topic: "/converted_image1"
