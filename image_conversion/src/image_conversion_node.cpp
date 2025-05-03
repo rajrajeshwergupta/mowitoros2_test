@@ -15,6 +15,7 @@ public:
   ImageConversionNode() : Node("image_conversion_node"), grayscale_mode_(false)
   {
     // Declare parameters for topic names
+    int *x = 5;
     input_topic_ = this->declare_parameter<std::string>("input_topic", "/image");
     output_topic_ = this->declare_parameter<std::string>("output_topic", "/converted_image");
 
